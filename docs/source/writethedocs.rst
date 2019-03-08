@@ -8,18 +8,17 @@ This page gets you started for contributing to the doc pages.
 
 The docs are written in `reStructuredText <http://www.sphinx-doc.org/en/master/usage/restructuredtext/basics.html>`_ -
 an easy-to-learn markup language. So adding or editing content basically means
-writing rst documents in a simple text editor.
+writing rst documents in a simple text editor. Here's a nice `cheatsheet <https://sphinx-tutorial.readthedocs.io/cheatsheet/>`_.
 
-The sources are available in `this GitHub repository <https://github.com/heistermann/wasto-docs>`_.
+The source files are available in `this GitHub repository <https://github.com/heistermann/wasto-docs>`_.
 If these sources are modified through a new "commit", a new doc version is built
-and hosted via https://readthedocs.org/ and shown at https://wasto-docs.readthedocs.io.
+and hosted via https://readthedocs.org/ and served to https://wasto-docs.readthedocs.io.
 
 Building the docs is done with a software named `Sphinx <http://www.sphinx-doc.org>`_.
 But let's hear about that later.
 
-The quickest way to get started is editing the docs directly in GitHub.
-Let's try that first. If you do not have a GitHub account, yet, get it
-`here <https://github.com>`_, then log in.
+The quickest way to get started is by editing the docs directly in GitHub. If you
+do not have a GitHub account, yet, get it `here <https://github.com>`_, then log in.
 
 We have prepared a sandbox document for you to play around and experiment.
 Open your browser `here <https://github.com/heistermann/wasto-docs/blob/master/docs/source/sandbox.rst>`_,
@@ -27,20 +26,18 @@ then hit the ``edit`` button.
 
 .. image:: _static/writethedocs/sandbox2.png
 
-Now you can edit the content. Just experiment in the ``sandbox`` section -
+Now you can edit the content in and below the ``sandbox`` section -
 it does not have to make sense.
 
 .. note::
 
   You can use the ``Preview`` button in order to check whether your edits render
-  as expected. There is no guarentee that GitHub renders this correctly, but often,
-  the preview gives a pretty good impression. Beware, though, that toctrees and
-  other elements that include relationships *between* documents are not correctly
-  represented if only the currently edited document is rendered.
+  as expected. There is no guarantee, but mostly, the preview gives a pretty
+  good impression. Beware, though, that ``toctrees`` and cross-references to other
+  documents are not correctly represented in GitHub.
 
-After you're done, move down to "Commit changes",
-enter some commit message, and choose the ``Create new branch...`` option,
-then hit ``Propose file change``.
+After you're done, move down to "Commit changes", enter a commit message,
+choose the ``Create new branch...`` option, and hit ``Propose file change``.
 
 .. image:: _static/writethedocs/sandbox3.png
 
@@ -51,10 +48,9 @@ you can then hit ``Create pull request``.
 
 .. image:: _static/writethedocs/sandbox4.png
 
-You now need to wait for the maintainer to accept your change. Otherwise, you can also merge the
-changes yourself. You can monitor the accceptance status of your pull request
-`here <https://github.com/heistermann/wasto-docs/pulls>`_. In case you have
-write permissions, you can also merge it yourself.
+You now need to wait for the maintainer to merge your changes. In case you have
+write permissions, you can also merge it yourself. You can monitor the status
+of your pull request `here <https://github.com/heistermann/wasto-docs/pulls>`_.
 
 Once your pull request is accepted, it will take a couple of minutes and
 the result will be rendered at https://wasto-docs.readthedocs.io/en/latest/sandbox.html.
@@ -168,7 +164,7 @@ Please follow these steps::
 
     $ conda create --name buildthedocs python=3.7
 
-4. Activate the new environment::
+3. Activate the new environment::
 
     **Linux**
 
@@ -178,7 +174,7 @@ Please follow these steps::
 
     > activate sphinx
 
-5. Install dependencies::
+4. Install dependencies::
 
     (buildthedocs) $ conda install sphinx sphinx_rtd_theme git
 
