@@ -12,4 +12,4 @@ Don't be afraid to break anything. Just start writing
 Sandbox
 -------
 
-...
+I tried to write *italic* and **bold**.
