@@ -221,9 +221,21 @@ Get the changes online!
 If the docs build fine, you want the changes to go where everything came from.
 
 This is not a fundamental git intro, so we stick to what's necessary:
-once you've finished your edits and tested if they build fine, you need to get the
-changes back to where everything came from. The mechanism for this is called
-"Pull request"::
+The mechanism for this is called "Pull request" and it looks like this::
 
   (buildthedocs) $ git add .
-  (buildthedocs) $ git add .
+  (buildthedocs) $ git commit -m "Some informative commit message"
+  (buildthedocs) $ git push origin master
+  Username for 'https://github.com': YOUR-ACCOUNT
+  Password for 'https://heistermann@github.com': YOUR-PASSWORD
+
+Have a look at https://github.com/YOUR-ACCOUNT/wasto-docs: Do you seee how your
+changes arrived? Now you're almost there. Hit the `New pull request`` button
+and follow through. Once your pull request is merged by someone with write
+permissions, your edits will appear in the online docs.
+
+
+Advanced git which makes life easier
+....................................
+
+To appear soon...
