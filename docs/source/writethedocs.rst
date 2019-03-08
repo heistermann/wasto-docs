@@ -28,7 +28,17 @@ then hit the ``edit`` button.
 .. image:: _static/writethedocs/sandbox2.png
 
 Now you can edit the content. Just experiment in the ``sandbox`` section -
-it does not have to make sense. After you're done, move down to "Commit changes",
+it does not have to make sense.
+
+.. note::
+
+  You can use the ``Preview`` button in order to check whether your edits render
+  as expected. There is no guarentee that GitHub renders this correctly, but often,
+  the preview gives a pretty good impression. Beware, though, that toctrees and
+  other elements that include relationships *between* documents are not correctly
+  represented if only the currently edited document is rendered.
+
+After you're done, move down to "Commit changes",
 enter some commit message, and choose the ``Create new branch...`` option,
 then hit ``Propose file change``.
 
@@ -156,7 +166,7 @@ Please follow these steps::
 
 2. Create a new ``conda`` environment::
 
-      $ conda create --name buildthedocs python=3.7
+    $ conda create --name buildthedocs python=3.7
 
 4. Activate the new environment::
 
@@ -170,7 +180,7 @@ Please follow these steps::
 
 5. Install dependencies::
 
-      (buildthedocs) $ conda install sphinx sphinx_rtd_theme git
+    (buildthedocs) $ conda install sphinx sphinx_rtd_theme git
 
 Done!
 

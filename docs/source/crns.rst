@@ -1,26 +1,10 @@
 Cosmic Ray Neutron Sensing
 ==========================
 
-Install a probe
----------------
+This chapter addresses various aspects of Cosmic Ray Neutron Sensing.
 
-1. First step
+.. toctree::
+   :maxdepth: 2
 
-2. Second step::
-
-      $ some terminal like stuff
-
-3. Third step
-
-...
-
-
-Configure Hydroinnova
------------------------
-
-...
-
-Configure Lab-C
------------------------
-
-...
+   crns/install
+   crns/configure

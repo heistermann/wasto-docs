@@ -12,6 +12,7 @@ These pages provide documentation of lab and field procedures.
   writethedocs
   usethedocs
   crns
+  profiles
   chromatography
   sandbox
 
