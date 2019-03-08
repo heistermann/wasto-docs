@@ -101,7 +101,7 @@ html_theme_options = {'sticky_navigation': True}
 # so a file named "default.css" will overwrite the builtin "default.css".
 html_static_path = ['_static']
 
-#html_logo = "_static/wasto-docs-logo.png"
+html_logo = "_static/logo44.svg"
 
 # Custom sidebar templates, must be a dictionary that maps document names
 # to template names.

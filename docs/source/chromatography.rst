@@ -1,6 +1,8 @@
 Ion chromatography
 ==================
 
+Add some intro text.
+
 .. toctree::
    :maxdepth: 2
 
