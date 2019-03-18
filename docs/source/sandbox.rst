@@ -13,4 +13,5 @@ Sandbox
 -------
 
 I tried to write *italic* and **bold**.
-I prefer _underline_.
+
+Delete.
