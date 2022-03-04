@@ -166,13 +166,8 @@ Please follow these steps::
 
 3. Activate the new environment::
 
-    **Linux**
+    $ conda activate buildthedocs
 
-    $ source activate buildthedocs
-
-    **Windows**
-
-    > activate buildthedocs
 
 4. Install dependencies::
 
@@ -194,9 +189,8 @@ and follow through.
 Now move to any directory where you want the docs to land, open a terminal
 (or DOS-console on Windows), and go as follows::
 
-  $ activate buildthedocs
-  (buildthedocs) $ git clone https://github.com/YOUR-ACCOUNT/wasto-docs.git
-  (buildthedocs) $ cd wasto-docs
+    $ git clone https://github.com/YOUR-ACCOUNT/wasto-docs.git
+    $ cd wasto-docs
 
 .. warning::
 
@@ -214,7 +208,7 @@ Notepad++ is a good one, and https://atom.io/ is, too). If you want to test
 whether everything builds fine, open a terminal or DOS window in the
 ``docs`` directory and do::
 
-  $ activate buildthedocs
+  $ conda activate buildthedocs
   (buildthedocs) $ make html
 
 This will trigger some verbose terminal activity which is Sphinx at work. Hope it
@@ -240,8 +234,3 @@ changes arrived? Now you're almost there. Hit the `New pull request`` button
 and follow through. Once your pull request is merged by someone with write
 permissions, your edits will appear in the online docs.
 
-
-Advanced git which makes life easier
-....................................
-
-To appear soon...
