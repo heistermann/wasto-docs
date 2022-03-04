@@ -192,10 +192,6 @@ Now move to any directory where you want the docs to land, open a terminal
     $ git clone https://github.com/YOUR-ACCOUNT/wasto-docs.git
     $ cd wasto-docs
 
-.. warning::
-
-  Windows users need to use ``activate`` instead of ``source activate``.
-
 Using your file manager, you should see that all the files are there in a
 new directory.
 
