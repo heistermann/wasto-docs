@@ -168,11 +168,11 @@ Please follow these steps::
 
     **Linux**
 
-    $ source activate sphinx
+    $ source activate buildthedocs
 
     **Windows**
 
-    > activate sphinx
+    > activate buildthedocs
 
 4. Install dependencies::
 
@@ -218,7 +218,7 @@ whether everything builds fine, open a terminal or DOS window in the
   (buildthedocs) $ make html
 
 This will trigger some verbose terminal activity which is Sphinx at work. Hope it
-ends with ``build succeeded``. Now look for the ``inde.html`` file in the directory
+ends with ``build succeeded``. Now look for the ``index.html`` file in the directory
 ``docs/build`` and open it with your browser. Did it work?
 
 Get the changes online!
@@ -235,7 +235,7 @@ The mechanism for this is called "Pull request" and it looks like this::
   Username for 'https://github.com': YOUR-ACCOUNT
   Password for 'https://heistermann@github.com': YOUR-PASSWORD
 
-Have a look at https://github.com/YOUR-ACCOUNT/wasto-docs: Do you seee how your
+Have a look at https://github.com/YOUR-ACCOUNT/wasto-docs: Do you see how your
 changes arrived? Now you're almost there. Hit the `New pull request`` button
 and follow through. Once your pull request is merged by someone with write
 permissions, your edits will appear in the online docs.
